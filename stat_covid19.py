@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 if __name__ == "__main__":
     
     info_global = requests.get('https://epidemic-stats.com/coronavirus/')#Getting access to global statistics
